@@ -2,6 +2,7 @@ version: '3.8'
 
 services:
   crawl4ai:
+    restart: always
     image: unclecode/crawl4ai:all-amd64
     ports:
       - "11235:11235"
